@@ -1,5 +1,5 @@
 name: my first workflow              # workflow 名
-on: push                             # event trigger on push
+on: workflow_dispatch                # event trigger on push
 
 jobs:
   build:                             # job id
